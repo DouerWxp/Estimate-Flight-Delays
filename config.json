@@ -1,0 +1,75 @@
+{
+    "Monthly Dataset Path List":[
+        "dataset/Airline_Delay_Cause_202101_202112.csv",
+        "dataset/Airline_Delay_Cause_200301_202112.csv"
+    ],
+
+    "Daily Dataset Path List":[
+        "dataset/T_ONTIME_MARKETING_01.csv",
+        "dataset/T_ONTIME_MARKETING_02.csv",
+        "dataset/T_ONTIME_MARKETING_03.csv",
+        "dataset/T_ONTIME_MARKETING_04.csv",
+        "dataset/T_ONTIME_MARKETING_05.csv",
+        "dataset/T_ONTIME_MARKETING_06.csv",
+        "dataset/T_ONTIME_MARKETING_07.csv",
+        "dataset/T_ONTIME_MARKETING_08.csv",
+        "dataset/T_ONTIME_MARKETING_09.csv",
+        "dataset/T_ONTIME_MARKETING_10.csv",
+        "dataset/T_ONTIME_MARKETING_11.csv",
+        "dataset/T_ONTIME_MARKETING_12.csv"
+    ],
+
+    "Daily Dataset Path List Bak":[
+        "dataset/T_ONTIME_REPORTING_01.csv",
+        "dataset/T_ONTIME_REPORTING_02.csv",
+        "dataset/T_ONTIME_REPORTING_03.csv",
+        "dataset/T_ONTIME_REPORTING_04.csv",
+        "dataset/T_ONTIME_REPORTING_05.csv",
+        "dataset/T_ONTIME_REPORTING_06.csv",
+        "dataset/T_ONTIME_REPORTING_07.csv",
+        "dataset/T_ONTIME_REPORTING_08.csv",
+        "dataset/T_ONTIME_REPORTING_09.csv",
+        "dataset/T_ONTIME_REPORTING_10.csv",
+        "dataset/T_ONTIME_REPORTING_11.csv",
+        "dataset/T_ONTIME_REPORTING_12.csv"
+    ],
+
+    "Weather Data API": "https://history.openweathermap.org/data/2.5/aggregated/year",
+
+    "Geocoding API": "http://api.openweathermap.org/geo/1.0/direct",
+
+    "API Key":"1b2444f310f39f55dfca221c6f8c715e",
+
+    "Database":"flight.db",
+
+    "Delay Cause":[
+        "CARRIER_DELAY",
+        "WEATHER_DELAY",
+        "NAS_DELAY",
+        "SECURITY_DELAY",
+        "LATE_AIRCRAFT_DELAY"
+    ],
+
+    "Weather Features":[
+        "temp_min",
+        "temp_max",
+        "temp_mean",
+        "pressure_min",
+        "pressure_max",
+        "pressure_mean",
+        "humidity_min",
+        "humidity_max",
+        "humidity_mean",
+        "wind_min",
+        "wind_max",
+        "wind_mean",
+        "precipitation_min",
+        "precipitation_max",
+        "precipitation_mean",
+        "clouds_min",
+        "clouds_max",
+        "clouds_mean"
+    ],
+
+    "Sample Size": 100000
+}
